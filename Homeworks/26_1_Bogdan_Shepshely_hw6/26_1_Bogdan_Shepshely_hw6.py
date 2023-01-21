@@ -28,7 +28,7 @@ while 1:
         print(file)
     elif user == 4:
         with open("Color", 'w', encoding='utf-8') as colors:
-            color = re.findall(r'#[a-z0-9]+', content)
+            color = re.findall(r'#[a-f0-9]+', content)
             for i in color:
                 colors.write(i + '\n')
         print(color)
