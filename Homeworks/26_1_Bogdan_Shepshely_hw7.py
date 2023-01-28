@@ -38,6 +38,3 @@ def binary_search(list, number):
 print(binary_search(range(1, 51), 12), f"{data} количество попыток - {len(data)}")
 
 sort_lst = []
-
-
-
